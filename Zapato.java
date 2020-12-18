@@ -43,13 +43,8 @@ public abstract class Zapato {
     public void setMaterial(String material) {
         this.material = material;
     }
-    public void ImprimirTipo(){
-        System.out.println("Tipo: "+getTipo());
-        System.out.println("Marca: "+getMarca());
-        System.out.println("Talla: "+getTalla());
-        System.out.println("Color: "+getColor());
-        System.out.println("Material: "+getMaterial());
-    }
+
+
     public void tofile(){
         //anadir un numero aleatorio para evitar archivos con nombre duplicado
         int numeroAleatorio = (int) (Math.random()*1000+1);
